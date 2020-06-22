@@ -1,0 +1,75 @@
+{
+  FTitleColor = "#ffffff";
+  FrameBorderColor = "#000000";
+  MenuTextJustify = center;
+  MenuDisabledColor = "#b3b3b3";
+  PixmapPath = ("/usr/share/WindowMaker/Pixmaps");
+  IconTitleBack = "#000000";
+  Shadow = yes;
+  FTitleBack = (spixmap, titl.jpg, black);
+  ClipTitleFont = "lucida:bold:pixelsize=12";
+  IconTitleFont = "helvetica:bold:pixelsize=8";
+  MenuTextBack = (spixmap, boxrev.jpg, black);
+  LargeDisplayFont = "lucida:bold:italic:pixelsize=64";
+  UShadowColor = "#140500";
+  ResizeCursor = (
+    bitmap,
+    "/usr/share/WindowMaker/Themes/Arrow.themed/dot_resize.xbm",
+    "/usr/share/WindowMaker/Themes/Arrow.themed/dot_resize_mask.xbm"
+  );
+  IconificationStyle = none;
+  PShadowColor = "#140500";
+  IconTitleColor = "#ffffff";
+  MenuTextColor = "#ffffff";
+  IconBack = (dgradient, "#101010", "#101010");
+  MenuTitleColor = "#7e261c";
+  AntialiasedText = YES;
+  MenuTitleFont = "helvetica:bold:pixelsize=13";
+  WindowTitleExtendSpace = "-1";
+  MoveTo6to12Head = None;
+  FShadowColor = "#140500";
+  "//MenuTextFont" = "-lispm-fixed-*-*-*-*-*-*-*-*-*-*-iso8859-15";
+  MenuTextFont = "courier:bold:italic:pixelsize=13";
+  WorkspaceBack = (
+    tpixmap,
+    "/home/maxi/GNUstep/Library/WindowMaker/Backgrounds/wallpaper.jpg",
+    gray20
+  );
+  MShadowColor = "#140500";
+  HighlightTextColor = "#000000";
+  MenuTitleBack = (spixmap, boxtitl.jpg, red);
+  EnforceIconMargin = NO;
+  TextJustify = center;
+  ClipTitleColor = "#101010";
+  MoveTo12to6Head = None;
+  WaitCursor = (
+    bitmap,
+    "/usr/share/WindowMaker/Themes/Arrow.themed/dot_wait.xbm",
+    "/usr/share/WindowMaker/Themes/Arrow.themed/dot_wait_mask.xbm"
+  );
+  FrameFocusedBorderColor = "#000000";
+  HighlightColor = "#ffffff";
+  WindowTitleFont = "lucida:pixelsize=18";
+  LargeDisplayTextColor = white;
+  CClipTitleColor = "#98fb98";
+  MoveCursor = (
+    bitmap,
+    "/usr/share/WindowMaker/Themes/Arrow.themed/dot_move.xbm",
+    "/usr/share/WindowMaker/Themes/Arrow.themed/dot_move_mask.xbm"
+  );
+  MenuStyle = singletexture;
+  ResizebarBack = (spixmap, subtitl.jpg, black);
+  MenuTitleJustify = left;
+  IconPath = ("/usr/share/WindowMaker/Icons", "/home/maxi/GNUstep/Library/Icons");
+  MiniPreviewSize = 256;
+  DisplayFont = "-*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*";
+  MenuJustify = center;
+  MenuTextExtendSpace = "-1";
+  PTitleBack = (solid, grey70);
+  UTitleColor = "#000000";
+  UTitleBack = (tpixmap, bar.jpg, grey70);
+  PTitleColor = "#000000";
+  WindowTitleColor = red;
+  MenuTitleExtendSpace = "-1";
+  FrameSelectedBorderColor = "#ffffff";
+}

@@ -1,0 +1,87 @@
+{
+  firefox.Firefox = {
+    Icon = FF.tiff;
+  };
+  soffice.Soffice = {
+    Icon = libreoffice.tiff;
+  };
+  "Navigator.Tor Browser" = {
+    AlwaysUserIcon = Yes;
+    Icon = Tor.tiff;
+  };
+  BleachBit.BleachBit = {
+    NoTitlebar = Yes;
+    NoBorder = Yes;
+    NoMiniaturizeButton = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = bleachbit.tiff;
+    NoResizebar = Yes;
+    NoCloseButton = Yes;
+  };
+  thunderbird.Thunderbird = {
+    Icon = thunderbird.tiff;
+  };
+  xterm.XTerm = {
+    AlwaysUserIcon = Yes;
+    Icon = "/home/maxi/GNUstep/Library/Icons/Terminal.tiff";
+  };
+  "firefox.Tor Browser" = {
+    Icon = Tor.tiff;
+  };
+  bleachbit. = {
+    Icon = bleachbit.tiff;
+  };
+  "gimp-2.10.Gimp-2.10" = {
+    AlwaysUserIcon = Yes;
+    Icon = gimp.tiff;
+  };
+  "telegram-desktop.TelegramDesktop" = {
+    AlwaysUserIcon = Yes;
+    Icon = "/home/maxi/GNUstep/Library/Icons/Telegram.tiff";
+  };
+  lutris. = {
+    Icon = lutris.tiff;
+  };
+  audacity.Audacity = {
+    AlwaysUserIcon = Yes;
+    Icon = audacity.tiff;
+  };
+  lutris.Lutris = {
+    NoTitlebar = Yes;
+    NoBorder = Yes;
+    NoMiniaturizeButton = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = lutris.tiff;
+    NoResizebar = Yes;
+    NoCloseButton = Yes;
+  };
+  vlc.vlc = {
+    AlwaysUserIcon = Yes;
+    Icon = vlc.tiff;
+  };
+  Steam.Steam = {
+    NoTitlebar = Yes;
+    NoMiniaturizeButton = Yes;
+    NoBorder = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = steam.tiff;
+    NoResizebar = Yes;
+    NoCloseButton = Yes;
+  };
+  Mail.Thunderbird = {
+    AlwaysUserIcon = Yes;
+    Icon = thunderbird.tiff;
+  };
+  "libreoffice.libreoffice-startcenter" = {
+    AlwaysUserIcon = Yes;
+    Icon = libreoffice.tiff;
+  };
+  "transmission-gtk.Transmission-gtk" = {
+    AlwaysUserIcon = Yes;
+    Icon = transmission.tiff;
+  };
+  Navigator.Firefox = {
+    AlwaysUserIcon = Yes;
+    Icon = FF.tiff;
+  };
+}
