@@ -1,35 +1,48 @@
 (
   NecroBox,
-(Terminal, EXEC, xterm),
-(Dateiverwaltung, EXEC, pcmanfm),
-  (
-    Anwendungen,
+(Terminal, EXEC, "st -T Necrobox"),
     (
       Internet,
       ("Mozilla Firefox", EXEC, firefox),
       ("Tor Browser", EXEC, "gtk-launch start-tor-browser.desktop"),
       ("Telegram", EXEC, "telegram-desktop"),
-      ("Transmission", EXEC, "transmission-gtk")
-
+      ("rTorrent", EXEC, "st -T rtorrent rtorrent")
 ),
 
-    Anwendungen,
     (
       Office,
       ("Mozilla Thunderbird", EXEC, thunderbird),
+      ("Mutt", EXEC, "st -T Mutt mutt"),
       ("LibreOffice", EXEC, libreoffice),
-(Leafpad, EXEC, leafpad)
-
+      ("TI-Emulator", EXEC, tiemu)
 ),
 
 
-    (Multimedia, (Audacity, EXEC, audacity), (VLC, EXEC, vlc), (GIMP, EXEC, gimp)),
-    
+    (Multimedia,
+
+ (Cmus, EXEC, "st cmus"),
+ (GIMP, EXEC, gimp),
+ (OpenShot, EXEC, "openshot-qt"),
+ (Audacity, EXEC, audacity) 
+ ),
+ 
+
+(Hackertools,
+
+("Aircrack-ng", EXEC, "st -T Aircrack-ng"),
+(Reaver, EXEC, "st -T Reaver"),
+(Wireshark, EXEC, "doas wireshark"),
+("John the Ripper", EXEC, "st -T 'John the Ripper'")
+),
+
+
+
      (
-      Sonstige,
+      System,
 (Lutris, EXEC, lutris),
+(Stellarium, EXEC, stellarium),
 (Bleachbit, EXEC, bleachbit)
-    )
+    ),
       
 
   
@@ -37,8 +50,9 @@
   
 
 
-  ),
-  (Starten..., SHEXEC, "%A(Run, Type command:)"),
+
+("Window Maker",
+
   (
     Erscheinungsbild,
     (
@@ -164,4 +178,5 @@
 
   ("Window Maker konfigurieren", EXEC, WPrefs),
   ("Window Maker neu starten", RESTART)
+)
 )
