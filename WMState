@@ -8,8 +8,8 @@
         BuggyApplication = No;
         AutoLaunch = No;
         Position = "0,0";
-        Lock = No;
-        Command = "-";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
       }
     );
     Applications1080 = (
@@ -19,19 +19,20 @@
         BuggyApplication = No;
         AutoLaunch = No;
         Position = "0,0";
-        Lock = No;
-        Command = "-";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
       }
     );
-    Lowered = Yes;
+    Lowered = No;
     Position = "0,1016";
   };
   Clip = {
     Forced = No;
     Name = Logo.WMClip;
+    DropCommand = "wmsetbg -u -t %d";
     BuggyApplication = No;
     AutoLaunch = No;
-    Position = "1201,1016";
+    Position = "906,1016";
     Lock = No;
     Command = "-";
   };
@@ -41,25 +42,12 @@
       Clip = {
         AutoRaiseLower = No;
         AutoCollapse = No;
-        Applications = (
-          {
-            Forced = No;
-            Name = fbpanel.Fbpanel;
-            DropCommand = "fbpanel %d";
-            BuggyApplication = No;
-            AutoLaunch = No;
-            Position = "1,0";
-            Lock = No;
-            PasteCommand = "fbpanel %s";
-            Command = fbpanel;
-            Omnipresent = No;
-          }
-        );
+        Applications = ();
         Collapsed = No;
         AutoAttractIcons = No;
         Lowered = Yes;
       };
-      Name = "Workspace 1";
+      Name = Main;
     }
   );
 }
