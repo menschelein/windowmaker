@@ -1,19 +1,19 @@
 (
-  NecroBox,
+NecroBox,
 (Terminal, EXEC, "st -T Necrobox"),
     (
       Internet,
       ("Mozilla Firefox", EXEC, firefox),
       ("Tor Browser", EXEC, "gtk-launch start-tor-browser.desktop"),
-      ("Telegram", EXEC, "telegram-desktop"),
-      ("rTorrent", EXEC, "st -T rtorrent rtorrent")
+      ("Telegram", EXEC, "telegram-desktop")
+ 
 ),
 
     (
       Office,
       ("Mozilla Thunderbird", EXEC, thunderbird),
-      ("Mutt", EXEC, "st -T Mutt mutt"),
       ("LibreOffice", EXEC, libreoffice),
+      ("Zoom", EXEC, zoom),
       ("TI-Emulator", EXEC, tiemu)
 ),
 
@@ -22,25 +22,15 @@
 
  (Cmus, EXEC, "st cmus"),
  (GIMP, EXEC, gimp),
- (OpenShot, EXEC, "openshot-qt"),
- (Audacity, EXEC, audacity) 
+  (Audacity, EXEC, audacity) 
  ),
- 
-
-(Hackertools,
-
-("Aircrack-ng", EXEC, "st -T Aircrack-ng"),
-(Reaver, EXEC, "st -T Reaver"),
-(Wireshark, EXEC, "doas wireshark"),
-("John the Ripper", EXEC, "st -T 'John the Ripper'")
-),
-
 
 
      (
       System,
+(Ranger, EXEC, "st -T 'Necrobox' ranger"),
+(PcManFM, EXEC, pcmanfm),
 (Lutris, EXEC, lutris),
-(Stellarium, EXEC, stellarium),
 (Bleachbit, EXEC, bleachbit)
     ),
       
